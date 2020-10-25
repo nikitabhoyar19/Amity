@@ -149,13 +149,38 @@ body {
 .table {
   margin-top: 50px;
 }
+.col-md-6 img {
+  width: 100%;
+}
+
+.table img {
+  width: 100%;
+}
 @media (max-width: 800px) {
+  .about__number {
+    padding: 10px;
+  }
   .about__number .col-3 {
     padding: 0px;
   }
   .about__number h1 {
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 600;
+  }
+  .about__number p {
+    font-size: 10px;
+    font-weight: 600;
+  }
+  .logos {
+    display: inline-block;
+  }
+  .Accreditations {
+    width: 100%;
+  }
+  .container {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
   }
 }
 @media (max-width: 990px) {
